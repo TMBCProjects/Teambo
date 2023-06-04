@@ -291,7 +291,10 @@ export async function readCommunications(doc) {
 export async function readTeammatesByMangerId(id) {
   let teamates = [];
   const teammatesRef = setCollection(Collections.teammates);
-  const q = query(teammatesRef, where(Fields.currentManagerId, "==", id));
+  const q = query(
+    teammatesRef,
+    where(Fields.currentManagerId, "array-contains", id)
+  );
   const querySnapshot = await getDocuments(q);
   querySnapshot.forEach((doc) => {
     let teamate = {
