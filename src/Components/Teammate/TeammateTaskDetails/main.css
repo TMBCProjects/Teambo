@@ -1,0 +1,11 @@
+.teammate-query{
+    flex-direction: column;
+}
+
+.task-detail-point.assigned{
+    justify-content: space-around;
+}
+
+.task-details-row1-col2{
+    flex-direction: row;
+}

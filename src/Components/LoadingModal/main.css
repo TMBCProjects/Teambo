@@ -1,0 +1,72 @@
+.colorful {
+    width: 21.4px;
+    height: 21.4px;
+    border-radius: 50%;
+    background: #01875a;
+    transform-origin: top;
+    display: grid;
+    animation: colorful-3dvxb1md 1s infinite linear;
+ }
+ 
+ .colorful::before,
+ .colorful::after {
+    content: "";
+    grid-area: 1/1;
+    background: #fcad00;
+    border-radius: 50%;
+    transform-origin: top;
+    animation: inherit;
+    animation-name: colorful-3dvxb1md;
+ }
+ 
+ .colorful::after {
+    background: #2785ff;
+    --s: 180deg;
+ }
+ 
+ @keyframes colorful-3dvxb1md {
+    0% {
+       box-shadow: 0 -17.9px #01875a, calc(17.9px*0.707) calc(-17.9px*0.707) #ffd82e,0 0 #01875a, 0 0 #ffd82e,
+                 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e;
+    }
+ 
+    12.5% {
+       box-shadow: 0 0 #01875a, calc(17.9px*0.707) calc(-17.9px*0.707) #ffd82e,17.9px 0 #01875a, 0 0 #ffd82e,
+                 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e;
+    }
+ 
+    25% {
+       box-shadow: 0 0 #01875a, 0 0 #ffd82e,17.9px 0 #01875a, calc(17.9px*0.707) calc(17.9px*0.707) #ffd82e,
+                 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e;
+    }
+ 
+    37.5% {
+       box-shadow: 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, calc(17.9px*0.707) calc(17.9px*0.707) #ffd82e,
+                 0 17.9px #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e;
+    }
+ 
+    50% {
+       box-shadow: 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e,
+                 0 17.9px #01875a, calc(-17.9px*0.707) calc(17.9px*0.707) #ffd82e,0 0 #01875a, 0 0 #ffd82e;
+    }
+ 
+    62.5% {
+       box-shadow: 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e,
+                 0 0 #01875a, calc(-17.9px*0.707) calc(17.9px*0.707) #ffd82e,-17.9px 0 #01875a, 0 0 #ffd82e;
+    }
+ 
+    75% {
+       box-shadow: 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e,
+                 0 0 #01875a, 0 0 #ffd82e,-17.9px 0 #01875a, calc(-17.9px*0.707) calc(-17.9px*0.707) #ffd82e;
+    }
+ 
+    87.5% {
+       box-shadow: 0 -17.9px #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e,
+                 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, calc(-17.9px*0.707) calc(-17.9px*0.707) #ffd82e;
+    }
+ 
+    100% {
+       box-shadow: 0 -17.9px #01875a, calc(17.9px*0.707) calc(-17.9px*0.707) #ffd82e,0 0 #01875a, 0 0 #ffd82e,
+                 0 0 #01875a, 0 0 #ffd82e,0 0 #01875a, 0 0 #ffd82e;
+    }
+}

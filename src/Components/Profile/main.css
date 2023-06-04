@@ -1,0 +1,242 @@
+.profileHeader {
+    font-size: x-large;
+    padding: 2vh;
+}
+
+.profileHeader svg {
+    color: #2B87A2;
+}
+
+.profileDropdown {
+    width: 25vh;
+}
+
+.profileInputs.disabled {
+    color: black !important;
+}
+
+.profileBtn {
+    background-color: #26809A;
+    width: 44vh;
+    height: 6vh;
+    background: transparent linear-gradient(360deg, #05546B 0%, #26809A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #00000014;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 5vh;
+}
+
+.profilepicture {
+    display: flex;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+.ant-upload-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.profileHeader {
+    font-size: xx-large;
+    padding: 2vh;
+    font-weight: bold;
+}
+
+.profileBody {
+    display: flex;
+    padding-inline: 8vh;
+    margin-top: 3vh;
+    flex-direction: column;
+    gap: 5vh;
+    overflow-y: scroll;
+    height: 84vh;
+}
+
+.userDetailsHead {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: x-large;
+    gap: 35%;
+}
+
+.userDetailsBody {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.userDetailsBody input {
+    margin-block: 2vh;
+}
+
+.profileInputs.password {
+    margin-block: 2vh;
+}
+
+.profileInputs.password input {
+    margin: 0;
+}
+
+.profileForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 5vh;
+    margin-top: 2vh;
+}
+
+.workDetailsprofileForm {
+    display: flex;
+}
+
+.workDetailsBody {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.workDetailsFooter {
+    display: flex;
+    margin: 5vh;
+    gap: 10vh;
+}
+
+.workFooterDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 15px;
+    padding: 2vh;
+    min-width: 20vh;
+}
+
+.requests {
+    display: flex;
+}
+
+.reqBtn {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50px;
+    border: transparent;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.reqBtn:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.reqBtn.accept {
+    background-color: #01875A;
+}
+
+.reqBtn.decline {
+    background-color: #DF2E38;
+}
+
+.photoLabel {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    border-radius: 50%;
+    background-size: contain !important;
+
+}
+
+.photoLabel p {
+    margin-top: .4rem;
+}
+
+.profile-image {
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.moblogout{
+    display: none;
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .userDetailsBody {
+        margin-bottom: 7vh;
+    }
+
+    .profileHeader span {
+        font-size: xx-large;
+    }
+
+    .profileHeader svg {
+        font-size: xx-large;
+    }
+}
+
+@media(max-width: 767px) {
+    .moblogout{
+        display: block;
+    }
+
+    .profileBody {
+        padding-inline: 5vh;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .userDetailsHead {
+        font-size: large;
+        justify-content: space-between;
+    }
+
+    .profileForm {
+        display: block;
+        padding: 1vh;
+    }
+
+    .profileForm label {
+        display: none;
+    }
+
+    .workDetailsFooter {
+        flex-direction: column;
+        gap: 4vh;
+        margin-bottom: 5rem;
+    }
+
+
+    .photoLabel {
+        width: 80px;
+        height: 80px;
+    }
+
+    .notificationBox {
+        margin-top: 2vh !important;
+        justify-content: center;
+    }
+
+    .profilepicture {
+        margin: auto;
+    }
+}

@@ -1,0 +1,60 @@
+.notification {
+    padding: 2vh;
+    height: 94vh;
+    overflow-y: auto;
+}
+
+.notificationBody {
+    font-size: x-large;
+}
+
+.icon svg{
+    color: #2B87A2;
+}
+
+.notify {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 15px #4b95eb1a;
+    border-radius: 8px;
+    height: 8vh;
+    align-items: center;
+    margin-block: 2vh;
+}
+
+.requestNotify{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    align-items: center;
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px){
+    .icon svg{
+        font-size: inherit;
+    }
+
+    .requestNotify{
+        width: 93%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .Tasktitle{
+        font-size: large;
+    }
+    .notification{
+        padding: 0;
+    }
+    .Tasktitle .icon{
+        font-size: larger;
+    }
+    .notify span{
+        font-size: medium;
+    }
+}

@@ -1,0 +1,18 @@
+.addnewmember{
+    padding: 2vh;
+}
+
+.picupload{
+    display: flex;
+    align-items: center;
+}
+
+.uploadtext{
+    width: 25%;
+    font: bold;
+    font-size: x-large;
+}
+
+.memeberform{
+    margin-top: 3vh;
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "Client":"Chaicup",
+        "Type":"Website UI",
+        "Task":"UI",
+        "Assigned":"21 Jan",
+        "Due":"24 Jan",
+        "Correction":"+6",
+        "Status":"ON_GOING"
+    },
+    {
+        "Client":"Teabon",
+        "Type":"Menu",
+        "Task":"Menu",
+        "Assigned":"21 Jan",
+        "Due":"24 Jan",
+        "Correction":"+6",
+        "Status":"PAUSED"
+    },
+    {
+        "Client":"TVS",
+        "Type":"Instagram ad Video",
+        "Task":"UI",
+        "Assigned":"21 Jan",
+        "Due":"24 Jan",
+        "Correction":"+6",
+        "Status":"PAUSED"
+    },
+    {
+        "Client":"Brand Moustache",
+        "Type":"Backend",
+        "Task":"API",
+        "Assigned":"21 Jan",
+        "Due":"24 Jan",
+        "Correction":"+6",
+        "Status":"ASSIGNED"
+    }
+    
+]

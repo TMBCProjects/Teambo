@@ -1,0 +1,98 @@
+.people {
+    padding: 2vh;
+    overflow-y: auto;
+    /* height: 95vh; */
+}
+
+
+.addPeople {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.peoplecard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000012;
+    border-radius: 6px;
+    width: 30vh;
+    padding: 2vh;
+    height: auto;
+}
+
+.teammateNameSpan{
+    font-size: larger;
+}
+
+.teammatePicture {
+    width: 15%;
+}
+
+.peoplehead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(36, 112, 226);
+    cursor: pointer;
+}
+
+.peoplehead .teammate-name {
+    text-transform: capitalize;
+}
+
+.peoplemain {
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.peoplebody {
+    margin-top: 2vh;
+
+}
+
+.cardcontent {
+    padding: 1vh;
+    background: #D9FFF2 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+
+
+.masonry {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    font-size: .85em;
+    margin-top: 2vh;
+}
+
+.item {
+    display: inline-block;
+    ;
+    background: #fff;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .masonry {
+        margin-top: 2vh;
+        column-count: 3;
+    }
+
+    .teammateNameSpan{
+        padding: 2vh;
+    }
+
+    .peoplecard{
+        width: 40vh;
+    }
+}

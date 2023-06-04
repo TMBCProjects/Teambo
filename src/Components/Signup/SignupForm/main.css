@@ -1,0 +1,80 @@
+.signupForm{
+    margin-top: 15vh;
+    margin-left: 25vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    font-size: x-large;
+}
+
+.body{
+    width:24%;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.signup-heading{
+    font-size: 30px;
+}
+
+.footertext{
+    margin-block: 3vh;
+}
+
+.footer{
+    margin-top: 2vh;
+    /* font-weight: bold; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #26809A;
+    margin-left: 5px;
+}
+
+.footer a:hover{
+    color: rgba(38,128,154, 0.8);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .signupForm{
+        margin-top: 20vh;
+        margin-left: 6vh;
+        padding: 0 20px;
+    }
+    
+    .header{
+        font-size:medium;
+    }
+    
+    .body{
+        width:90%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .signup-heading{
+        font-size: 25px;
+    }
+    
+    .footertext{
+        margin-block: 2vh;
+    }
+    
+    .footer{
+        margin-top: 2vh;
+        /* font-weight: bold; */
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color: #26809A;
+        margin-left: 4px;
+    }
+}

@@ -1,0 +1,207 @@
+.overall-row1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-top: 1.5rem;
+}
+.overall-row1-card {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 8px 15px #4b95eb1a !important;
+  border-radius: 8px !important;
+  display: flex;
+  flex-direction: column;
+  margin-right: 8vh;
+  margin-bottom: 5vh;
+}
+.card-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.card-icon {
+  background: #3598f54d 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #3c99ef;
+}
+.card-row1 p {
+  color: #30cf22;
+}
+.card-row2 {
+  margin-top: 1rem;
+  text-align: left;
+  font: normal normal 600 1rem/1rem Quicksand;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+}
+.card-row3 {
+  margin-top: 1rem;
+  text-align: left;
+  font: normal normal bold 1.9rem/1.9rem Quicksand;
+  letter-spacing: 1px;
+  color: #373737;
+  opacity: 1;
+}
+.overall-row1-card hr {
+  opacity: 0.4;
+  height: 0.8px;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #ccc !important;
+  border: none;
+}
+.card-row4 {
+  text-align: left;
+  font: normal normal medium Quicksand;
+  font-size: 0.7rem;
+  color: #302f2f;
+  opacity: 0.4;
+}
+.overall-row2 {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 15px #4b95eb1a;
+  border-radius: 16px;
+}
+.overall-row2 p {
+  align-self: flex-start;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #0f1736;
+  opacity: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.overall-row3{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+.overall-row3 .box1{
+  width: 45%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 15px #4B95EB1A;
+border-radius: 8px;
+padding: 3rem;
+margin: 2rem 1rem;
+
+}
+.box1 .box-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-heading p{
+  text-align: left;
+letter-spacing: 0px;
+color: #0F1736;
+font-size: 1.2rem;
+}
+.box-heading div{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+font-size: 1rem;
+letter-spacing: 0.69px;
+color: #2D5C6B;
+font-weight: bold;
+}
+.box1 ul{
+  margin-top: 1rem;
+}
+.box1 ul li{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+border-radius: 14px;
+color: #fff;
+margin: 1rem 0;
+}
+.box1 ul li div:last-child{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color: #2D5C6B;
+  display: grid;
+  place-items:  center;
+  font-weight: bold;
+}
+
+.overall-row4{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.row4-box{
+  width: 95%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 15px #4B95EB1A;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+margin: 2rem 0;
+}
+.row4-box p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #0F1736;
+  opacity: 1;
+}
+.row4-box-data{
+  display: flex;
+  align-items: center;
+}
+
+.box-graph-info{
+  padding: 1rem;
+  margin-left: 4rem !important;
+  width: 50%;
+}
+.box-graph-info ul{
+  display: flex;
+  flex-direction: column;
+}
+.box-graph-info ul li {
+ list-style: none;
+ display: flex;
+ align-items: center;
+ background: #F8FAFF 0% 0% no-repeat padding-box;
+border-radius: 12px;
+width: 100%;
+padding: .6rem;
+margin-top: 1rem;
+}
+.box-graph-info ul li p:first-child{
+  width: .8rem;
+  height: .8rem;
+  border-radius: 50%;
+  background-color: #000;
+}
+.box-graph-info ul li p:nth-child(2){
+  color: #878787;
+}
+.box-graph-info ul li p{
+  margin: 0 .5rem;
+}

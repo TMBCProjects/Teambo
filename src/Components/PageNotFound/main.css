@@ -1,0 +1,25 @@
+.pnf {
+    font-size: xx-large;
+    margin-top: 15vh;
+    margin-left: 40vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .pnf {
+        text-align: center;
+        margin-top: 20vh;
+        margin-left: 0vh;
+    }
+
+    .pnf p {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        padding: 0 2rem;
+        text-transform: capitalize;
+    }
+
+    .pnf a {
+        text-decoration: none;
+        font-weight: 500;
+    }
+}

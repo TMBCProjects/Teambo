@@ -1,0 +1,253 @@
+.mainBG {
+    background: #112138;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content {
+    margin-left: 7vh;
+}
+
+.profile {
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+}
+
+.profileDetails {
+    color: white;
+    text-transform: capitalize;
+}
+
+.profileDetails p {
+    color: #2B87A2;
+}
+
+.search {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.search .ant-input-group-wrapper {
+    width: 25vh !important;
+}
+
+.search * {
+    background: transparent linear-gradient(180deg, #2B3353 0%, #0F1736 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+.search input::placeholder {
+    color: white;
+}
+
+.menuBtn {
+    display: none;
+}
+
+.ant-menu-item-group-title {
+    color: white !important;
+}
+
+.attendanceBtn {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 35vh;
+}
+
+.attendance {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 25vh;
+}
+
+.attendanceBtn span,
+.attendance span {
+    color: white;
+}
+
+.menu {
+    color: white;
+    margin-top: 5vh;
+    width: 25vh;
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu .link {
+    padding: 2vh;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 2px solid transparent;
+}
+
+.menu .link:hover {
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: white;
+    color: #112138;
+    transition: ease-in-out;
+}
+
+.foot {
+    color: white;
+    margin-top: 2vh;
+    width: 25vh;
+    padding: 2vh
+}
+
+.foot:hover {
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: white;
+    color: #112138;
+    transition: ease-in-out;
+}
+
+.companiesMenu {
+    color: white;
+    margin-top: 4vh;
+}
+
+.companiesBody {
+    margin-left: 3vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center
+}
+
+.logoutIcon {
+    transform: rotate(180deg);
+}
+
+.notifyicon {
+    color: white;
+}
+
+.active {
+    background-color: white;
+    border-radius: 35px;
+    color: #112138 !important;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.active.notifyicon:hover {
+    color: #112138 !important;
+}
+
+.active .notifyicon {
+    color: #112138 !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        display: none;
+    }
+
+    .mainBG{
+        display: none;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #112138;
+        overflow-x: hidden;
+        transition: 0.5s;
+        font-size: x-large;
+    }
+
+    .menu.mbl {
+        width: 40vh !important;
+    }
+
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 5vh;
+        right: 5vh;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 7vh;
+        width: 7vh;
+        transition: 2s;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #112138;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        font-size: xx-large;
+    }
+
+    .openbtn:hover {
+        background-color: #FFFF;
+        border-radius: 50px;
+        color: #0F1736;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 2vh;
+        float: right;
+        margin-top: -12vh;
+    }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+
+    .mainBG {
+        height: 103vh;
+    }
+
+    .foot {
+        margin-top: 2vh;
+        width: 30vh;
+    }
+
+    .menu.link.wip {
+        font-size: smaller;
+    }
+
+    .menu {
+        margin-top: 3vh;
+        width: 30vh;
+    }
+
+    .search {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .ant-avatar {
+        line-height: 7.5vh !important;
+    }
+
+    .ant-avatar svg {
+        font-size: x-large !important;
+    }
+
+}
+
+@media(max-width:767px) {
+    .mainBG {
+        background-color: white;
+    }
+}

@@ -1,0 +1,58 @@
+.logo {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-icon {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  margin-right: 6px;
+}
+
+.logo-icon-row1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-icon .logo-icon-row1 div {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.logo-icon-row1 div:first-child {
+  background-color: #01875a;
+}
+
+.logo-icon-row1 div:last-child {
+  background-color: #fcad00;
+}
+
+.logo-icon-row2 div:first-child {
+  background-color: #2785ff;
+}
+
+.logo-icon-row2 {
+  justify-content: flex-end;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logo-text a {
+  text-decoration: none;
+  color: #2B87A2;;
+}
+
+@media(max-width:767px) {
+  .logo {
+    width: 180px;
+  }
+}

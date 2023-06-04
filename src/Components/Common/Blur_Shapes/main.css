@@ -1,0 +1,138 @@
+.blur-shapes-container {
+  width: 50%;
+  height: 100%;
+  background: rgb(95, 154, 232);
+  background: linear-gradient(
+    288deg,
+    rgba(95, 154, 232, 1) 13%,
+    rgba(255, 255, 255, 1) 72%
+  );
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.shapes{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+    filter: blur(14px);
+}
+.green-diamond {
+  border-style: solid;
+  border-color: transparent transparent rgb(154, 199, 50) transparent;
+  border-width: 0 35px 35px 35px;
+  height: 0;
+  width: 60px;
+  box-sizing: content-box;
+  position: absolute;
+  margin: 30px 0 60px 0;
+  opacity: 0.7;
+  transform: rotate(-60deg);
+  filter: blur(7px);
+  left: 197px;
+  top: 100px;
+  transition: 1s ease;
+}
+.green-diamond:after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: rgb(154, 199, 50) transparent transparent transparent;
+  border-width: 80px 60px 0 60px;
+}
+
+.orange-square {
+  width: 150px;
+  height: 150px;
+  background: rgb(242, 25, 25);
+  background: linear-gradient(
+    264deg,
+    rgba(242, 25, 25, 0.8939950980392157) 0%,
+    rgba(240, 118, 18, 1) 39%
+  );
+  transform: rotate(20deg);
+  filter: blur(6px);
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  transition: 1s ease;
+}
+
+.yellow-square {
+  width: 150px;
+  height: 150px;
+  background: rgb(209, 231, 45);
+  transform: rotate(140deg);
+  filter: blur(6px);
+  position: absolute;
+  right: 230px;
+  top: 50%;z-index: 1;
+  transition: 1s ease;
+}
+.pink-circle {
+  width: 170px;
+  height: 170px;
+  background: rgb(199, 25, 242);
+  background: linear-gradient(
+    264deg,
+    rgba(199, 25, 242, 1) 0%,
+    rgba(25, 37, 242, 1) 0%,
+    rgba(240, 18, 18, 1) 100%
+  );
+  border-radius: 50%;
+  transform: rotate(170deg);
+  filter: blur(6px);
+  position: absolute;
+  bottom: 190px;
+  left: 170px;
+  z-index: 1;
+  transition: 1s ease;
+}
+.blue-circle {
+  width: 470px;
+  height: 470px;
+  background: rgba(9, 123, 193, 0.604);
+  background: linear-gradient(
+    264deg,
+    rgba(3, 106, 170, 0.728) 30%,
+    rgba(255, 186, 34, 1) 85%
+  );
+  border-radius: 50%;
+  transform: rotate(-40deg);
+  filter: blur(6px);
+  position: absolute;
+  bottom: 250px;
+  left: 250px;
+  transition: 1s ease;
+}
+.shapes:hover .green-diamond{
+    transform: rotate(-10deg);
+}
+.shapes:hover .orange-square{
+    transform: rotate(-30deg);
+}
+.shapes:hover .yellow-square {
+    transform: rotate(220deg);
+}
+.shapes:hover .pink-circle {
+    transform: scale(1.1);
+}
+.shapes:hover .blue-circle {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+    .blur-shapes-container{
+        display: none;
+    }
+  }

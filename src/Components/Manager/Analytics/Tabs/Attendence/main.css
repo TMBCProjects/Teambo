@@ -1,0 +1,85 @@
+span.anticon.anticon-search {
+    color: black;
+}
+
+/* 
+.attendance{
+    width: 100%;
+    
+} */
+
+.searchHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    font-size: x-large !important;
+}
+
+.footee {
+    display: flex;
+    gap: 2vh;
+}
+
+.bodie {
+    display: flex;
+    align-items: center;
+}
+
+/* .attendanceTable{
+
+} */
+
+.arrowLeft {
+    color: #207892;
+    transform: rotate(180deg);
+}
+
+.arrow {
+    color: #207892;
+}
+
+
+.attendanceTable {
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    font-size: x-large;
+    border-collapse: collapse;
+}
+
+.attendanceTable tbody {
+    border: 1px solid #D8E1EB !important;
+}
+
+.attendanceTable tbody td {
+    padding: 1vh;
+    border: 1px solid #D8E1EB !important;
+}
+
+.attendanceTable td:not(:first-child) {
+    text-align: center;
+}
+
+.attendanceTable th {
+    padding-left: 3vh;
+}
+
+
+.teammateData {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+sup.ant-scroll-number.ant-badge-count.ant-badge-multiple-words {
+    background: #F2F2F2;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 1.3vh;
+    font-weight: bold;
+}
